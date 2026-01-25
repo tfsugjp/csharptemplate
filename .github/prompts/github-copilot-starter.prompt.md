@@ -1,7 +1,7 @@
 ---
-mode: 'agent'
+agent: 'agent'
 model: Claude Sonnet 4
-tools: ['edit', 'githubRepo', 'changes', 'problems', 'search', 'runCommands', 'fetch']
+tools: ['edit', 'githubRepo', 'changes', 'problems', 'search', 'runCommands', 'web/fetch']
 description: 'Set up complete GitHub Copilot configuration for a new project based on technology stack'
 ---
 
@@ -42,15 +42,15 @@ Create reusable prompt files:
 - `generate-docs.prompt.md` - Documentation generation
 - `debug-issue.prompt.md` - Debugging assistance
 
-### 4. `.github/chatmodes/` Directory
+### 4. `.github/agents/` Directory
 Create specialized chat modes:
-- `architect.chatmode.md` - Architecture planning mode
-- `reviewer.chatmode.md` - Code review mode
-- `debugger.chatmode.md` - Debugging mode
+- `architect.agent.md` - Architecture planning mode
+- `reviewer.agent.md` - Code review mode
+- `debugger.agent.md` - Debugging mode
 
 **Chat Mode Attribution**: When using content from awesome-copilot chatmodes, add attribution comments:
 ```markdown
-<!-- Based on/Inspired by: https://github.com/github/awesome-copilot/blob/main/chatmodes/[filename].chatmode.md -->
+<!-- Based on/Inspired by: https://github.com/github/awesome-copilot/blob/main/agents/[filename].agent.md -->
 ```
 
 ### 5. `.github/workflows/` Directory
@@ -68,7 +68,7 @@ Create Coding Agent workflow file:
 For each file, follow these principles:
 
 **MANDATORY FIRST STEP**: Always use the fetch tool to research existing patterns before creating any content:
-1. **Fetch from awesome-copilot collections**: https://github.com/github/awesome-copilot/blob/main/README.collections.md
+1. **Fetch from awesome-copilot collections**: https://github.com/github/awesome-copilot/blob/main/docs/README.collections.md
 2. **Fetch specific instruction files**: https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/[relevant-file].instructions.md
 3. **Check for existing patterns** that match the technology stack
 
@@ -139,7 +139,7 @@ description: "Java Spring Boot development standards"
 - **Instructions**: https://github.com/github/awesome-copilot/tree/main/instructions
 - **Prompts**: https://github.com/github/awesome-copilot/tree/main/prompts  
 - **Chat Modes**: https://github.com/github/awesome-copilot/tree/main/chatmodes
-- **Collections**: https://github.com/github/awesome-copilot/blob/main/README.collections.md
+- **Collections**: https://github.com/github/awesome-copilot/blob/main/docs/README.collections.md
 
 **Awesome-Copilot Collections to Check:**
 - **Frontend Web Development**: React, Angular, Vue, TypeScript, CSS frameworks
@@ -171,10 +171,10 @@ project-root/
 │   │   ├── refactor-code.prompt.md
 │   │   ├── generate-docs.prompt.md
 │   │   └── debug-issue.prompt.md
-│   ├── chatmodes/
-│   │   ├── architect.chatmode.md
-│   │   ├── reviewer.chatmode.md
-│   │   └── debugger.chatmode.md
+│   ├── agents/
+│   │   ├── architect.agent.md
+│   │   ├── reviewer.agent.md
+│   │   └── debugger.agent.md
 │   └── workflows/
 │       └── copilot-setup-steps.yml
 ```
@@ -211,7 +211,7 @@ Apply the [general coding guidelines](./general-coding.instructions.md) to all c
 **Prompts (.prompt.md):**
 ```yaml
 ---
-mode: 'agent'
+agent: 'agent'
 model: Claude Sonnet 4
 tools: ['githubRepo', 'codebase']
 description: 'Generate a new React form component'
@@ -233,11 +233,11 @@ Requirements for the form:
 
 ```
 
-**Chat Modes (.chatmode.md):**
+**Chat Modes (.agent.md):**
 ```yaml
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
-tools: ['codebase', 'fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
+tools: ['codebase', 'web/fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
 model: Claude Sonnet 4
 ---
 # Planning mode instructions
