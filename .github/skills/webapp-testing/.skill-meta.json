@@ -1,0 +1,8 @@
+{
+  "name": "webapp-testing",
+  "source": "unknown",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright.",
+  "whenToUse": "This skill enables comprehensive testing and debugging of local web applications using Playwright automation.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.209Z"
+}

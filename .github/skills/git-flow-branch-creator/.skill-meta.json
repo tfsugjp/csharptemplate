@@ -1,0 +1,7 @@
+{
+  "name": "git-flow-branch-creator",
+  "source": "unknown",
+  "description": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.137Z"
+}

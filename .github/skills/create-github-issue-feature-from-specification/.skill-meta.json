@@ -1,0 +1,8 @@
+{
+  "name": "create-github-issue-feature-from-specification",
+  "source": "unknown",
+  "description": "Create GitHub Issue for feature request from specification file using feature_request.yml template.",
+  "whenToUse": "Create GitHub Issue for the specification at `${file}`.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.921Z"
+}

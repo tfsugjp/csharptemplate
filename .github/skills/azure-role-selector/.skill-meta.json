@@ -1,0 +1,7 @@
+{
+  "name": "azure-role-selector",
+  "source": "unknown",
+  "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege acces...",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.888Z"
+}

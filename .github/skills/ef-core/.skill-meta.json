@@ -1,0 +1,8 @@
+{
+  "name": "ef-core",
+  "source": "unknown",
+  "description": "Get best practices for Entity Framework Core",
+  "whenToUse": "Your goal is to help me follow best practices when working with Entity Framework Core.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.083Z"
+}

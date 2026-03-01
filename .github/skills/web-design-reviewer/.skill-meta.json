@@ -1,0 +1,8 @@
+{
+  "name": "web-design-reviewer",
+  "source": "unknown",
+  "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues.",
+  "whenToUse": "This skill enables visual inspection and validation of website design quality, identifying and fixing issues at the source code level.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.199Z"
+}

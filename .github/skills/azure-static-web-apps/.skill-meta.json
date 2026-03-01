@@ -1,0 +1,8 @@
+{
+  "name": "azure-static-web-apps",
+  "source": "unknown",
+  "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI.",
+  "whenToUse": "npm install -D @azure/static-web-apps-cli",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.896Z"
+}

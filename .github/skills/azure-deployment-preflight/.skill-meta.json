@@ -1,0 +1,8 @@
+{
+  "name": "azure-deployment-preflight",
+  "source": "unknown",
+  "description": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks.",
+  "whenToUse": "This skill validates Bicep deployments before execution, supporting both Azure CLI (`az`) and Azure Developer CLI (`azd`) workflows.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.857Z"
+}

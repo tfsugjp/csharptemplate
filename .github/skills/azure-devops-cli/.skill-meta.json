@@ -1,0 +1,8 @@
+{
+  "name": "azure-devops-cli",
+  "source": "unknown",
+  "description": "Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints.",
+  "whenToUse": "This Skill helps manage Azure DevOps resources using the Azure CLI with Azure DevOps extension.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.868Z"
+}

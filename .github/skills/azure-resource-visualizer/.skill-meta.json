@@ -1,0 +1,8 @@
+{
+  "name": "azure-resource-visualizer",
+  "source": "unknown",
+  "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.",
+  "whenToUse": "A user may ask for help understanding how individual resources fit together, or to create a diagram showing their relationships. Your mission is to examine Azure resource groups, understand their s...",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.879Z"
+}

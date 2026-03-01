@@ -1,0 +1,8 @@
+{
+  "name": "create-github-pull-request-from-specification",
+  "source": "unknown",
+  "description": "Create GitHub Pull Request for feature request from specification file using pull_request_template.md template.",
+  "whenToUse": "Create GitHub Pull Request for the specification at `${workspaceFolder}/.github/pull_request_template.md` .",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.951Z"
+}

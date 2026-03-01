@@ -1,0 +1,8 @@
+{
+  "name": "csharp-async",
+  "source": "unknown",
+  "description": "Get best practices for C# async programming",
+  "whenToUse": "Your goal is to help me follow best practices for asynchronous programming in C#.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.959Z"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "create-github-issues-for-unmet-specification-requirements",
+  "source": "unknown",
+  "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
+  "whenToUse": "Create GitHub Issues for unimplemented requirements in the specification at `${file}`.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.941Z"
+}

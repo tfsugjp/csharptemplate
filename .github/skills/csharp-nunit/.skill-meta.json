@@ -1,0 +1,8 @@
+{
+  "name": "csharp-nunit",
+  "source": "unknown",
+  "description": "Get best practices for NUnit unit testing, including data-driven tests",
+  "whenToUse": "Your goal is to help me write effective unit tests with NUnit, covering both standard and data-driven testing approaches.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.004Z"
+}

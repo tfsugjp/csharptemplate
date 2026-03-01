@@ -1,0 +1,8 @@
+{
+  "name": "dotnet-upgrade",
+  "source": "unknown",
+  "description": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution",
+  "whenToUse": "name: \"Project Classification Analysis\" prompt: \"Identify all projects in the solution and classify them by type (`.NET Framework`, `.NET Core`, `.NET Standard`). Analyze each `.csproj` for its cur...",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.073Z"
+}

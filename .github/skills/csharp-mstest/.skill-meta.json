@@ -1,0 +1,8 @@
+{
+  "name": "csharp-mstest",
+  "source": "unknown",
+  "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests",
+  "whenToUse": "Your goal is to help me write effective unit tests with modern MSTest, using current APIs and best practices.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.994Z"
+}

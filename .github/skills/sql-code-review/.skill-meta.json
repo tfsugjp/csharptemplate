@@ -1,0 +1,8 @@
+{
+  "name": "sql-code-review",
+  "source": "unknown",
+  "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle).",
+  "whenToUse": "Perform a thorough SQL code review of ${selection} (or entire project if no selection) focusing on security, performance, maintainability, and database best practices.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.180Z"
+}

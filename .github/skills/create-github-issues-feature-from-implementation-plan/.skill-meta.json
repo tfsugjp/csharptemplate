@@ -1,0 +1,8 @@
+{
+  "name": "create-github-issues-feature-from-implementation-plan",
+  "source": "unknown",
+  "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+  "whenToUse": "Create GitHub Issues for the implementation plan at `${file}`.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.930Z"
+}

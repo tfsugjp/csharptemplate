@@ -1,0 +1,8 @@
+{
+  "name": "github-issues",
+  "source": "unknown",
+  "description": "Create, update, and manage GitHub issues using MCP tools.",
+  "whenToUse": "Manage GitHub issues using the `@modelcontextprotocol/server-github` MCP server.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.145Z"
+}

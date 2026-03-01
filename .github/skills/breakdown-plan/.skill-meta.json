@@ -1,0 +1,7 @@
+{
+  "name": "breakdown-plan",
+  "source": "unknown",
+  "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:00.904Z"
+}

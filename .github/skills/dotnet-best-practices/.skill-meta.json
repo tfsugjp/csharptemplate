@@ -1,0 +1,8 @@
+{
+  "name": "dotnet-best-practices",
+  "source": "unknown",
+  "description": "Ensure .NET/C# code meets best practices for the solution/project.",
+  "whenToUse": "Your task is to ensure .NET/C# code in ${selection} meets the best practices specific to this solution/project. This includes:",
+  "categories": [],
+  "installedAt": "2026-03-01T06:54:01.043Z"
+}
